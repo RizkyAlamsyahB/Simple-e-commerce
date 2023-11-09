@@ -6,7 +6,7 @@
             @foreach ($products as $product)
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="card mb-4">
-                        <a href="{{ route('product.show', $product->slug) }}">
+                        <a href="{{ route('product.detail', ['id' => $product->id]) }}">
                             <img class="card-img-top" src="{{ $product->image }}" alt="Card image cap">
                         </a>
                         <div class="card-body">

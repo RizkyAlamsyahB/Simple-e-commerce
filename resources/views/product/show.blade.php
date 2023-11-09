@@ -17,7 +17,7 @@
                         <span class="input-group-btn"></span>
                         <button type="button" class="btn btn-secondary" onclick="decreaseValue()">-</button>
                         </span>
-                        <input type="text" id="quantity" name="quantity" style="width: 50px; text-align:center;"
+                        <input type="text" id="quantity" name="quantity" style="width: 50px; text-align:center; border: none;"
                             value="1">
                         <span class="input-group-btn">
                             <button type="button" class="btn btn-secondary" onclick="increaseValue()">+</button>
@@ -29,8 +29,8 @@
                     <p>Pengiriman Ke</p>
                     <p>Ongkos Kirim</p>
                     <div class="mt-auto">
-                        <a href="#" class="btn btn-primary">Add to Cart</a>
-                        <a href="#" class="btn btn-success mr-2">Buy Now</a>
+                        <a href="#" class="btn btn-light">Add to Cart</a>
+                        <a href="#" class="btn btn-dark mr-2">Buy Now</a>
                     </div>
                 </div>
             </div>
