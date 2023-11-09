@@ -28,4 +28,6 @@ class HomeController extends Controller
 
         return view('home', compact('products')); // Melewatkan data produk ke tampilan home.blade.php
     }
+
+  
 }

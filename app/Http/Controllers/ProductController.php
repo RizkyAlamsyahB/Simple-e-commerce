@@ -36,13 +36,12 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $slug)
+    public function show($id)
     {
-        $product = Product::where('slug', $slug)->firstOrFail(); // Mengambil produk berdasarkan slug
+        $product = Product::findOrFail($id); // Mengambil produk berdasarkan ID
 
-        return view('product.show', compact('product')); // Melewatkan data produk ke tampilan show.blade.php
+        return view('product-detail', compact('product')); // Melewatkan data produk ke tampilan show.blade.php
     }
-
 
     /**
      * Show the form for editing the specified resource.
