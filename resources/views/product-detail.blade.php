@@ -45,9 +45,6 @@
                             <button class="btn btn-dark " style="background:#EE4D2D; border:none; border-radius:0px;">Buy
                                 Now</button>
                         </div>
-
-
-
                     </form>
                 </div>
             </div>

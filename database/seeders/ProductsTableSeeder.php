@@ -22,7 +22,7 @@ class ProductsTableSeeder extends Seeder
         $faker = Faker::create();
         $faker->addProvider(new Image($faker));
 
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 20; $i++) {
             $name = $faker->word;
             $description = $faker->paragraph;
             $price = $faker->numberBetween(10000, 100000);
