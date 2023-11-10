@@ -1,3 +1,56 @@
 .bg-orange {
     background: linear-gradient(180deg, #ee4d2d 0%, #ee4d2d 50%, #ec3814 100%);
 }
+/* CSS untuk card box */
+.card-box {
+    background-color: white;
+    padding: 20px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #ee4d2d;
+    text-align: center;
+}
+
+/* CSS untuk efek hover tombol Delete */
+/* CSS untuk efek hover tombol Delete */
+.delete-button {
+    border: none;
+    background: transparent;
+    color: black;
+    transition: background 0.3s;
+}
+
+.delete-button:hover {
+    color: #ee4d2d;
+}
+.clear-cart {
+    border: none;
+    background: transparent;
+    color: black;
+    transition: background 0.3s;
+}
+.clear-cart:hover {
+    color: #ee4d2d;
+}
+#checkout-button {
+    display: inline;
+    margin-left: 10px;
+    padding: 9px 40px; /* Adjust the padding to make the button wider */
+    font-size: 20px;
+    background: #ee4d2d;
+    border: none;
+    border-radius: 0px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s;
+    font-size: 12px;
+}
+
+/* Additional style for when hovering over the button */
+#checkout-button:hover {
+    background: #ff6633; /* Change the background color when hovering */
+}
+
+#checkout-button:hover {
+    background: lightcoral; /* Ganti dengan warna oranye muda yang Anda inginkan */
+}
